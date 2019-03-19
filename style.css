@@ -703,32 +703,32 @@ body.page .main-navigation {
   font-size: 1.5em;
 }
 
-.liste-cours .session-1 {
+.liste-cours .domaine-1 {
   background-color: paleturquoise;
   color: #fff;
 }
 
-.liste-cours .session-2 {
+.liste-cours .domaine-2 {
   background-color: palegreen;
   color: #aaa;
 }
 
-.liste-cours .session-3 {
+.liste-cours .domaine-3 {
   background-color: palegoldenrod;
   color: #fff;
 }
 
-.liste-cours .session-4 {
+.liste-cours .domaine-4 {
   background-color: palevioletred;
   color: #fff;
 }
 
-.liste-cours .session-5 {
+.liste-cours .domaine-5 {
   background-color: peachpuff;
   color: #fff;
 }
 
-.liste-cours .session-6 {
+.liste-cours .domaine-6 {
   background-color: papayawhip;
   color: #fff;
 }

@@ -60,6 +60,7 @@ add_filter('acf/update_value/name=cursusfoto', 'acf_set_featured_image', 10, 3);
  */
 
 /*
+
 add_action('acf/save_post', 'acf_set_featured_image');
 
 function acf_set_featured_image($post_id){

@@ -11,12 +11,12 @@
     margin: 2% 2% 0% 15%;
     font-size : 1.5em;
   
-    .session-1 { background-color: paleturquoise; color : #fff; }
-    .session-2 { background-color: palegreen; color : #aaa;}
-    .session-3 { background-color: palegoldenrod; color : #fff;}
-    .session-4 { background-color: palevioletred; color : #fff;}
-    .session-5 { background-color: peachpuff; color : #fff;}
-    .session-6 { background-color: papayawhip; color : #fff;}
+    .domaine-1 { background-color: paleturquoise; color : #fff; }
+    .domaine-2 { background-color: palegreen; color : #aaa;}
+    .domaine-3 { background-color: palegoldenrod; color : #fff;}
+    .domaine-4 { background-color: palevioletred; color : #fff;}
+    .domaine-5 { background-color: peachpuff; color : #fff;}
+    .domaine-6 { background-color: papayawhip; color : #fff;}
     h3,h4 { padding:5px;}
 
     @include media(mobile){
