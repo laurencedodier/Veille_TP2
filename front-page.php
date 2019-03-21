@@ -79,8 +79,8 @@ get_header();
 </article>	
 <!--  ///////////////////////////////////////////////////////////////////////// -->
 
-	</main><!-- #main -->
-</section><!-- #primary -->
+	</main>
+</section>
 
 <?php
 get_footer();
