@@ -15,7 +15,7 @@
 
 $sigle = substr(get_the_title(),0,7);
 $session = substr($sigle,4,1);
-$domaine = substr($sigle,5,1);
+$domaine = substr($sigle,5,1); 
 
 $titre = substr(get_the_title(),7);
 echo '<div class="entry-title'
