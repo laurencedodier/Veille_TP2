@@ -3,6 +3,11 @@ body{
     color: aliceblue;
 }
 
+.site-description{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
 #masthead{
     background-color: aliceblue;
 }
@@ -72,12 +77,14 @@ element.style{
 
 .category-evenement h1{
     color: plum; 
+    @extend .site-description ;
 }
 
 /* category-nouvelle */
 
 .category-nouvelle h1{
     color: palegoldenrod;
+    @extend .site-description ;
 }
 
 .svg-icon{ 
@@ -91,3 +98,4 @@ element.style{
 .post-title{
     @extend .svg-icon ;
 }
+

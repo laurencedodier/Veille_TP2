@@ -504,3 +504,12 @@
 		opacity: 1;
 	}
 }
+
+.menu-item{
+	color: cadetblue;
+	@extend .site-description ;
+}
+
+.menu-item:hover{
+	color: purple;
+}
