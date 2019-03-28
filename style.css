@@ -801,12 +801,12 @@ body {
 }
 
 /* modification css des categories nouvelles et evenements */
-.wp-block-image, .wp-block-media-text__media {
+.wp-block-image, .wp-block-image a, .wp-block-media-text__media a, .wp-block-media-text__media {
   -webkit-transition: 1s;
   transition: 1s;
 }
 
-.wp-block-image a {
+.wp-block-image a, .wp-block-media-text__media a a {
   color: papayawhip;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -820,7 +820,7 @@ body {
   color: palevioletred;
 }
 
-.wp-block-image a:hover {
+.wp-block-image a:hover, .wp-block-media-text__media a a:hover {
   color: palevioletred;
 }
 

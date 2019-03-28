@@ -22,13 +22,15 @@ body{
 
 
 .wp-block-image a{
+    @extend .wp-block-image ;
     color: papayawhip;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  }
 
  .wp-block-media-text__media a{
    @extend .wp-block-image ;
-   background-color: aqua;
+    color: peachpuff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  }
 
  .wp-block-media-text__media a:hover{
