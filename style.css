@@ -596,14 +596,6 @@ body.page .main-navigation {
   }
 }
 
-.menu-item {
-  color: cadetblue;
-}
-
-.menu-item:hover {
-  color: purple;
-}
-
 /*--------------------------------------------------------------
 ## Header
 --------------------------------------------------------------*/
@@ -633,7 +625,7 @@ body.page .main-navigation {
   padding: 4px;
 }
 
-.site-header.featured-image .site-branding .site-description, .site-header.featured-image .site-branding .menu-item, .site-header.featured-image .site-branding .category-evenement h1, .category-evenement .site-header.featured-image .site-branding h1, .site-header.featured-image .site-branding .category-nouvelle h1, .category-nouvelle .site-header.featured-image .site-branding h1 {
+.site-header.featured-image .site-branding .site-description, .site-header.featured-image .site-branding .category-evenement h1, .category-evenement .site-header.featured-image .site-branding h1, .site-header.featured-image .site-branding .category-nouvelle h1, .category-nouvelle .site-header.featured-image .site-branding h1 {
   font-size: 5vw;
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
@@ -676,7 +668,7 @@ body.page .main-navigation {
   .site-header.featured-image .site-branding .site-title {
     font-size: 4vw;
   }
-  .site-header.featured-image .site-branding .site-description, .site-header.featured-image .site-branding .menu-item, .site-header.featured-image .site-branding .category-evenement h1, .category-evenement .site-header.featured-image .site-branding h1, .site-header.featured-image .site-branding .category-nouvelle h1, .category-nouvelle .site-header.featured-image .site-branding h1 {
+  .site-header.featured-image .site-branding .site-description, .site-header.featured-image .site-branding .category-evenement h1, .category-evenement .site-header.featured-image .site-branding h1, .site-header.featured-image .site-branding .category-nouvelle h1, .category-nouvelle .site-header.featured-image .site-branding h1 {
     font-size: 3vw;
   }
 }
@@ -689,7 +681,7 @@ body.page .main-navigation {
   .site-header.featured-image .site-branding .site-title {
     font-size: 5vw;
   }
-  .site-header.featured-image .site-branding .site-description, .site-header.featured-image .site-branding .menu-item, .site-header.featured-image .site-branding .category-evenement h1, .category-evenement .site-header.featured-image .site-branding h1, .site-header.featured-image .site-branding .category-nouvelle h1, .category-nouvelle .site-header.featured-image .site-branding h1 {
+  .site-header.featured-image .site-branding .site-description, .site-header.featured-image .site-branding .category-evenement h1, .category-evenement .site-header.featured-image .site-branding h1, .site-header.featured-image .site-branding .category-nouvelle h1, .category-nouvelle .site-header.featured-image .site-branding h1 {
     font-size: 4vw;
   }
 }
@@ -819,7 +811,7 @@ body {
   color: aliceblue;
 }
 
-.site-description, .menu-item, .category-evenement h1, .category-nouvelle h1 {
+.site-description, .category-evenement h1, .category-nouvelle h1 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
