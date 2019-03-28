@@ -78,7 +78,14 @@ element.style{
     color: palegoldenrod;
 }
 
-.entry-title{
-    @extend .category-nouvelle ; 
-    color: aqua; 
+.svg-icon{ 
+    color:palegoldenrod;
+}
+
+.svg-icon:hover{ 
+    color: cadetblue;
+}
+
+.post-title{
+    @extend .svg-icon ;
 }
