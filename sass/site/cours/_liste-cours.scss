@@ -12,6 +12,14 @@
       margin-bottom:0 ;
 }
 
+
+@for $i from 1 through 6 {
+    .domaine-#{$i} {
+        font-size: 25px*$i;
+    }
+}
+
+
 .liste-cours {
     display : grid;
     grid-template-columns: 1fr;
@@ -19,12 +27,12 @@
     margin: 2% 2% 0% 15%;
     font-size : 1.7em;
   
-    .domaine-1 { background-color: paleturquoise; color : #fff; }
-    .domaine-2 { background-color: palegreen; color : #aaa;}
-    .domaine-3 { background-color: palegoldenrod; color : #fff;}
-    .domaine-4 { background-color: palevioletred; color : #fff;}
-    .domaine-5 { background-color: peachpuff; color : #fff;}
-    .domaine-6 { background-color: papayawhip; color : #fff;}
+    .domaine-1 { background-color: hsl(180, 65%, 81%);}
+    .domaine-2 { background-color: palegreen; }
+    .domaine-3 { background-color: palegoldenrod; }
+    .domaine-4 { background-color: palevioletred;}
+    .domaine-5 { background-color: peachpuff; }
+    .domaine-6 { background-color: papayawhip;}
     h3,h4 { padding:5px;}
 
     @include media(mobile){

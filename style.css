@@ -710,6 +710,30 @@ body.page .main-navigation {
   margin-bottom: 0;
 }
 
+.domaine-1 {
+  font-size: 25px;
+}
+
+.domaine-2 {
+  font-size: 50px;
+}
+
+.domaine-3 {
+  font-size: 75px;
+}
+
+.domaine-4 {
+  font-size: 100px;
+}
+
+.domaine-5 {
+  font-size: 125px;
+}
+
+.domaine-6 {
+  font-size: 150px;
+}
+
 .liste-cours {
   display: -ms-grid;
   display: grid;
@@ -722,32 +746,26 @@ body.page .main-navigation {
 
 .liste-cours .domaine-1 {
   background-color: paleturquoise;
-  color: #fff;
 }
 
 .liste-cours .domaine-2 {
   background-color: palegreen;
-  color: #aaa;
 }
 
 .liste-cours .domaine-3 {
   background-color: palegoldenrod;
-  color: #fff;
 }
 
 .liste-cours .domaine-4 {
   background-color: palevioletred;
-  color: #fff;
 }
 
 .liste-cours .domaine-5 {
   background-color: peachpuff;
-  color: #fff;
 }
 
 .liste-cours .domaine-6 {
   background-color: papayawhip;
-  color: #fff;
 }
 
 .liste-cours h3, .liste-cours h4 {
