@@ -488,7 +488,7 @@ body.page .main-navigation {
           animation: fade_in 0.1s forwards;
 }
 
-.main-navigation .main-menu .menu-item-has-children.off-canvas .sub-menu .submenu-expand .svg-icon {
+.main-navigation .main-menu .menu-item-has-children.off-canvas .sub-menu .submenu-expand .svg-icon, .main-navigation .main-menu .menu-item-has-children.off-canvas .sub-menu .submenu-expand .post-title {
   -webkit-transform: rotate(270deg);
           transform: rotate(270deg);
 }
@@ -856,6 +856,14 @@ element.style {
   color: palegoldenrod;
 }
 
+.svg-icon, .post-title {
+  color: palegoldenrod;
+}
+
+.svg-icon:hover, .post-title:hover {
+  color: cadetblue;
+}
+
 @-webkit-keyframes anim1 {
   from {
     -webkit-transform: translateY(-100vh) rotateX(0deg);
@@ -894,12 +902,12 @@ element.style {
             transform: rotateX(-40deg);
   }
   70% {
-    -webkit-transform: rotateX(30deg);
-            transform: rotateX(30deg);
+    -webkit-transform: rotateX(80deg);
+            transform: rotateX(80deg);
   }
   80% {
-    -webkit-transform: rotateX(-20deg);
-            transform: rotateX(-20deg);
+    -webkit-transform: rotateX(2deg);
+            transform: rotateX(2deg);
   }
   90% {
     -webkit-transform: rotateX(10deg);
@@ -910,12 +918,12 @@ element.style {
             transform: rotateX(-5deg);
   }
   97% {
-    -webkit-transform: rotateX(3deg);
-            transform: rotateX(3deg);
+    -webkit-transform: rotateX(34deg);
+            transform: rotateX(34deg);
   }
   99% {
-    -webkit-transform: rotateX(-2deg);
-            transform: rotateX(-2deg);
+    -webkit-transform: rotateX(-50deg);
+            transform: rotateX(-50deg);
   }
   100% {
     -webkit-transform: rotateX(0deg);
@@ -935,12 +943,12 @@ element.style {
             transform: rotateX(-40deg);
   }
   70% {
-    -webkit-transform: rotateX(30deg);
-            transform: rotateX(30deg);
+    -webkit-transform: rotateX(80deg);
+            transform: rotateX(80deg);
   }
   80% {
-    -webkit-transform: rotateX(-20deg);
-            transform: rotateX(-20deg);
+    -webkit-transform: rotateX(2deg);
+            transform: rotateX(2deg);
   }
   90% {
     -webkit-transform: rotateX(10deg);
@@ -951,12 +959,12 @@ element.style {
             transform: rotateX(-5deg);
   }
   97% {
-    -webkit-transform: rotateX(3deg);
-            transform: rotateX(3deg);
+    -webkit-transform: rotateX(34deg);
+            transform: rotateX(34deg);
   }
   99% {
-    -webkit-transform: rotateX(-2deg);
-            transform: rotateX(-2deg);
+    -webkit-transform: rotateX(-50deg);
+            transform: rotateX(-50deg);
   }
   100% {
     -webkit-transform: rotateX(0deg);

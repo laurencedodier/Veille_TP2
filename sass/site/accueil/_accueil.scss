@@ -77,3 +77,15 @@ element.style{
 .category-nouvelle h1{
     color: palegoldenrod;
 }
+
+.svg-icon{ 
+    color:palegoldenrod;
+}
+
+.svg-icon:hover{ 
+    color: cadetblue;
+}
+
+.post-title{
+    @extend .svg-icon ;
+}
