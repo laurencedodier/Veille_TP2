@@ -27,8 +27,8 @@ body{
  }
 
  .wp-block-media-text__media a{
-    color: peachpuff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   @extend .wp-block-image ;
+   background-color: aqua;
  }
 
  .wp-block-media-text__media a:hover{
