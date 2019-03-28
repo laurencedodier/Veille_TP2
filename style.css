@@ -101,10 +101,10 @@ body.page .main-navigation {
   background: transparent;
   color: inherit;
   cursor: pointer;
-  -webkit-transition: background 250ms ease-in-out, -webkit-transform 150ms ease;
-  transition: background 250ms ease-in-out, -webkit-transform 150ms ease;
-  transition: background 250ms ease-in-out, transform 150ms ease;
-  transition: background 250ms ease-in-out, transform 150ms ease, -webkit-transform 150ms ease;
+  -webkit-transition: background 250ms ease-in-out, -webkit-transform 150ms ease;
+  transition: background 250ms ease-in-out, -webkit-transform 150ms ease;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  transition: background 250ms ease-in-out, transform 150ms ease, -webkit-transform 150ms ease;
   -webkit-appearance: none;
   -moz-appearance: none;
 }
@@ -694,7 +694,7 @@ body.page .main-navigation {
 }
 
 .category-cours h1 {
-  color: palegreen;
+  color: #8a047f;
 }
 
 #liste-cours {
@@ -712,32 +712,32 @@ body.page .main-navigation {
 }
 
 .liste-cours .domaine-1 {
-  background-color: paleturquoise;
+  background-color: wheat;
   color: #fff;
 }
 
 .liste-cours .domaine-2 {
-  background-color: palegreen;
+  background-color: bisque;
   color: #aaa;
 }
 
 .liste-cours .domaine-3 {
-  background-color: palegoldenrod;
+  background-color: antiquewhite;
   color: #fff;
 }
 
 .liste-cours .domaine-4 {
-  background-color: palevioletred;
+  background-color: honeydew;
   color: #fff;
 }
 
 .liste-cours .domaine-5 {
-  background-color: peachpuff;
+  background-color: seashell;
   color: #fff;
 }
 
 .liste-cours .domaine-6 {
-  background-color: papayawhip;
+  background-color: ivory;
   color: #fff;
 }
 
@@ -788,7 +788,7 @@ body.page .main-navigation {
 }
 
 body {
-  background-color: #002437;
+  background-color: #d0eeff;
   color: aliceblue;
 }
 
@@ -807,21 +807,21 @@ body {
 }
 
 .wp-block-image a {
-  color: papayawhip;
+  color: #54107c;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .wp-block-media-text__media a {
-  color: peachpuff;
+  color: #3c0b4b;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .wp-block-media-text__media a:hover {
-  color: palevioletred;
+  color: #ff0055;
 }
 
 .wp-block-image a:hover {
-  color: palevioletred;
+  color: #ff0055;
 }
 
 .entry .entry-content a {
