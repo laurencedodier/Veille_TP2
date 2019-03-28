@@ -77,3 +77,8 @@ element.style{
 .category-nouvelle h1{
     color: palegoldenrod;
 }
+
+.entry-title{
+    @extend .category-nouvelle ; 
+    color: aqua; 
+}

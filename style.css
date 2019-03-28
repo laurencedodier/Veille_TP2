@@ -712,7 +712,7 @@ body.page .main-navigation {
 }
 
 .liste-cours .domaine-1 {
-  background-color: paleturquoise;
+  background-color: #ffee00;
   color: #fff;
 }
 
@@ -852,8 +852,12 @@ element.style {
 }
 
 /* category-nouvelle */
-.category-nouvelle h1 {
+.category-nouvelle h1, .entry-title h1 {
   color: palegoldenrod;
+}
+
+.entry-title {
+  color: aqua;
 }
 
 @-webkit-keyframes anim1 {
